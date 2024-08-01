@@ -1,0 +1,114 @@
+body{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:lavender;
+    background: url('bgg.png') no-repeat;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+}
+.heading{
+    line-height: 1.1;
+    margin: 2.5rem 0rem 1.2rem 0rem;
+}
+.container{
+    background-color: hsl(230deg 75% 98.43%);
+    padding: 2% 2%;
+    border-radius: 23px;
+}
+
+
+table{
+    border-collapse: collapse;
+    background-color: hsl(230deg 75% 98.43%);
+}
+
+
+th,td{
+    text-align: center;
+    padding: 10px 13px;
+    font-size: 2rem;
+    border: 3px solid hsl(170.37deg 44.75% 35.49%);
+    border-bottom: none; 
+
+    
+
+}
+th{
+    border-top: none;
+}
+
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 1000;
+    font-style: italic;
+    letter-spacing: 0.5rem;
+
+
+    color: hsl(274.17deg 29.51% 52.16%);
+    text-shadow: 
+    -10px 7px 0px rgb(255, 255, 255),
+    0px 0px 0px rgb(255, 255, 255),
+    -9px 4px 0px rgb(255, 255, 255);
+    
+    font-size: 4.8rem;
+  
+}
+
+
+
+.school{
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    letter-spacing: -0.7rem;
+    font-size: 5rem;
+    text-shadow: 
+    -8px 2px 0px rgb(255, 255, 255),
+    -8px 7px 0px rgb(255, 255, 255),
+    -8px 4px 0px rgb(255, 255, 255)
+  
+   
+}
+td{
+    color: grey;
+}
+
+th:first-child , td:first-child {
+    border-left: none;
+
+}
+
+
+th:last-child, td:last-child {
+    border-right: none; 
+}
+
+
+
+
+
+
+
+.mon{
+color: hsl(346.13deg 77.67% 59.61%);
+}
+.tue{
+color: hsl(208.95deg 95.8% 53.33%);
+}
+.wed{
+color:hsl(28.14deg 89.68% 50.59%);
+}
+.thu{
+color: hsl(208.95deg 95.8% 53.33%);
+}
+.fri{
+color: hsl(28.14deg 89.68% 50.59%);
+
+}
+.time{
+    color: hsl(28.14deg 89.68% 50.59%);
+}
